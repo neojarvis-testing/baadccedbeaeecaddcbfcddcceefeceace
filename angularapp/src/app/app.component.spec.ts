@@ -14,10 +14,10 @@ describe('AppComponent', () => {
   //   expect(app).toBeTruthy();
   // });
 
-  fit(`should have as title task management app`, () => {
+  fit(`should have as title question management app`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('task-management-app');
+    expect(app.title).toEqual('question-management-app');
   });
 
 
